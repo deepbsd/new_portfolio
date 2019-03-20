@@ -1,0 +1,14 @@
+.header {
+    color: white;
+    height: 800px;
+    background: url("../img/solo_victory.jpeg") left top no-repeat;
+    background-color: radial-gradient(cyan, midnight-blue);
+    background-size: cover;
+    padding: 100px 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
