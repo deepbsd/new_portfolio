@@ -27,7 +27,7 @@ body {
 }
 
 .text-box {
-    border: 1px solid red;
+    border: 1px solid white;
     width: 80vw;
     margin: auto;
     padding: 8%;
@@ -38,8 +38,8 @@ body {
 }
 
 .heading__primary {
-    /* color: #fff;  */
-    color: #125ea5;
+    color: $color_primary;
+    /* color: #125ea5;  */
     text-transform: uppercase;
 }
 
