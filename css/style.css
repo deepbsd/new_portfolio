@@ -1,3 +1,10 @@
+:root {
+    --color-primary: #7ed56f;
+    --color-secondary: #55c57a;
+    --color-tertiary: #28b485;
+    --color-text-light-1: #fff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,10 +21,17 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient( to right bottom, 
+    /* background-image: linear-gradient( to right bottom, 
         rgba(162, 242, 242, 0.8), 
         rgba(4, 226, 226, 0.6)), 
         url(../img/solo_victory.jpeg);
+        */
+
+    background-image: linear-gradient(to right bottom, 
+        rgba(126,213,111, 0.5), 
+        rgba(40,180,133)), 
+        url(../img/solo_victory.jpeg);
+
     background-size: cover;
     background-position: top;
     padding: 100px 0;
@@ -38,7 +52,7 @@ body {
 }
 
 .heading__primary {
-    color: $color_primary;
+    color: var(--color-text-light-1);
     /* color: #125ea5;  */
     text-transform: uppercase;
 }
