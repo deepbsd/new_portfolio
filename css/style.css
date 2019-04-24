@@ -34,16 +34,16 @@ body {
 
     background-size: cover;
     background-position: top;
-    padding: 100px 0;
+    /* padding: 100px 0;  */
     position: relative;
 
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 }
 
 .text-box {
-    border: 1px solid white;
-    width: 80vw;
-    margin: auto;
+    border: 1px solid red;
+    /* width: 80vw; */
+    /* margin: auto; */
     padding: 8%;
     /*  position: absolute;
     top: 40%;
@@ -54,20 +54,22 @@ body {
 .heading__primary {
     color: var(--color-text-light-1);
     /* color: #125ea5;  */
+    margin-top: 10%;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .heading__primary-main {
     display: block;
     font-size: 60px;
     font-weight: 400;
-    letter-spacing: 15px;
+    letter-spacing: .8em;
 }
 .heading__primary-sub {
     display: block;
     font-size: 20px;
     font-weight: 700;
-    letter-spacing: 12px;
+    letter-spacing: 1em;
 }
 
 
