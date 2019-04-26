@@ -41,7 +41,7 @@ body {
 }
 
 .text-box {
-    border: 1px solid red;
+    border: 1px solid orange;
     /* width: 80vw; */
     /* margin: auto; */
     padding: 8%;
@@ -56,16 +56,18 @@ body {
     /* color: #125ea5;  */
     margin-top: 10%;
     text-transform: uppercase;
-    text-align: center;
+    text-align: center; 
 }
 
 .heading__primary-main {
+    border: 1px solid orangered;
     display: block;
     font-size: 60px;
     font-weight: 400;
     letter-spacing: .8em;
 }
 .heading__primary-sub {
+    border: 1px solid purple;
     display: block;
     font-size: 20px;
     font-weight: 700;
