@@ -1,8 +1,15 @@
 :root {
+    /*
     --color-primary: #7ed56f;
     --color-secondary: #55c57a;
     --color-tertiary: #28b485;
     --color-text-light-1: #fff;
+    */
+    --color-primary: #2ecc71;
+    --color-secondary: #7befb2;
+    --color-tertiary: #26a65b;
+    --color-text-light-1: #fff;
+
 }
 
 * {
