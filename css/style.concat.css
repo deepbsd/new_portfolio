@@ -749,9 +749,9 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/codeDrills_cropped.png); }
+      background-image: linear-gradient(to right bottom, #55c57a, #28b485), url(../img/codeDrills_cropped.png); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #55c57a, #28b485), url(../img/GunBase_cropped.png); }
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/GunBase_cropped.png); }
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/swapiquizz_screenshot_cropped.png); }
   .card__heading {
@@ -769,9 +769,9 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
-    .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.85), rgba(40, 180, 133, 0.85)); }
+    .card__heading-span--2 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
   .card__details {
