@@ -13,7 +13,30 @@
 </head>
 <body>
 
-   <header class="header">
+
+    <div class="navigation">
+        <input class="navigation__checkbox" type="checkbox" id="navi-toggle">
+
+        <label class="navigation__button" for="navi-toggle">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#header" class="navigation__link"><span>01</span>Home</a></li>
+                <li class="navigation__item"><a href="#about" class="navigation__link"><span>02</span>About Dave</a></li>
+                <li class="navigation__item"><a href="#composition" class="navigation__link"><span>03</span>Dave's Projects</a></li>
+                <li class="navigation__item"><a href="#stories" class="navigation__link"><span>04</span>Recommendations</a></li>
+                <li class="navigation__item"><a href="#contact" class="navigation__link"><span>05</span>Contact Dave</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+   <header class="header" id="header">
        <div class="header__text-box">
             <h1 class="heading-primary">
                 <span class="heading-primary--main">
@@ -60,7 +83,7 @@
           </div>
 
           <div class="col-1-of-2">
-              <div class="composition">
+              <div class="composition" id="composition">
 
                   <a href="http://codedrills.netlify.com" target="_blank">
                   <img srcset="img/codeDrills_cropped.png 300w, img/nat-1-large.jpg 1000w"
@@ -255,7 +278,7 @@
         </div>
         </section>  <!-- Tours section -->
 
-        <section class="section-stories">
+        <section class="section-stories" id="stories">
 
             <div class="bg-video">
                 <video class="bg-video__content" autoplay muted loop >
@@ -320,7 +343,7 @@
 
 
 
-   <footer class="footer">
+   <footer class="footer" id="contact">
         <div class="footer__logo-box">
             <!--
             <picture class="footer__logo">
