@@ -623,7 +623,8 @@ body {
         margin-bottom: 6rem; } }
   .footer__logo {
     width: 15rem;
-    height: auto; }
+    height: auto;
+    -webkit-filter: invert(100%); }
   .footer__navigation {
     border-top: 1px solid #777;
     padding-top: 2rem;

@@ -21,7 +21,9 @@
     &__logo {
         width: 15rem;
         height: auto;
+        color: $color-primary;
     }
+
 
     &__navigation {
         border-top: 1px solid $color-grey-dark;
