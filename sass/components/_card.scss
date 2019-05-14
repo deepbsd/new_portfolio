@@ -130,20 +130,20 @@
     }
 
     // FRONT SIDE STYLING
-    //&__cta {
-    //    position: absolute;
-    //    top: 50%;
-    //    left: 50%;
-    //    transform: translate(-50%, -50%);
-    //    text-align: center;
-    //    width: 100%;
-    //}
+    &__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+    }
 
-    //&__price-box {
-    //    text-align: center;
-    //    margin-bottom: 8rem;
-    //    color: $color-white;
-    //}
+    &__price-box {
+        text-align: center;
+        margin-bottom: 8rem;
+        color: $color-white;
+    }
 
     //&__price-only {
     //    font-size: 1.4rem;
