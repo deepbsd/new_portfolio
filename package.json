@@ -23,6 +23,7 @@
     "postcss-cli": "^6.1.2"
   },
   "dependencies": {
+    "live-server": "^1.2.1",
     "tar": "^4.4.8"
   }
 }
