@@ -28,46 +28,78 @@
         background-color: $color-white;    
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
         border-radius: 3px;
-        display: table;
-        overflow: hidden;
+        //display: table;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        //overflow: hidden;
         opacity: 0;
-        transform: translate(-50%, -50%) scale(.25);
-        transition: all .4s .2s;
+        //transform: translate(-50%, -50%) scale(.25);
+        //transition: all .4s .2s;
+
+        padding: 1.4rem;
     }
 
-    &__left {
-        width: 33.3333333%;
-        display: table-cell;
-        vertical-align: middle;
-    }
+    //&__left {
+    //    width: 33.3333333%;
+    //    display: table-cell;
+    //    vertical-align: middle;
+    //}
 
-    &__right {
-        width: 66.6666667%;
-        display: table-cell;
-        vertical-align: middle;
-        padding: 3rem 5rem;
-    }
+    //&__right {
+    //    width: 66.6666667%;
+    //    display: table-cell;
+    //    vertical-align: middle;
+    //    padding: 3rem 5rem;
+    //}
 
     &__img {
-        display: block;
-        width: 100%;
+
+        box-shadow: 4px 4px 6px $color-primary;
+        width: 80%;
+        margin: 3rem ;
+
+        &:hover {
+           animation: rockMeSideways 1s infinite; 
+        }
+    }
+
+    &__hdr {
+        font-size: 2rem;
+    }
+
+    &__project {
+        display: flex;
+        flex-direction: column;
+        //justify-content: center;
+        align-items: center;
+
+        margin: 3rem auto;
+        text-align: left;
     }
 
     &__text {
-        font-size: 1.4rem;
-        margin-bottom: 4rem;
+        
+        //border: 1px solid orangered;
+        width: 90%;
+        font-size: 1.8rem;
+        //margin-bottom: 4rem;
+        text-align: left;
 
-        -moz-column-count: 2;
-        -moz-column-gap: 4rem;
-        -moz-column-rule: 1px solid $color-grey-light-2;
-        column-count: 2;
-        column-gap: 4rem;
-        column-rule: 1px solid $color-grey-light-2;
+        margin: 3rem auto;
 
-        -webkit-hyphens: auto;
-        -moz-hyphens: auto;
-        -ms-hyphens: auto;
-		hyphens: auto;
+        //-moz-column-count: 2;
+        //-moz-column-gap: 4rem;
+        //-moz-column-rule: 1px solid $color-grey-light-2;
+        //column-count: 2;
+        //column-gap: 4rem;
+        //column-rule: 1px solid $color-grey-light-2;
+
+        //-webkit-hyphens: auto;
+        //-moz-hyphens: auto;
+        //-ms-hyphens: auto;
+		//hyphens: auto;
     }
 
     // when popup is in open state
